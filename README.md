@@ -48,19 +48,19 @@ Open ```constants.m```. Note that we specify a dictionary of reference materials
 
 Open ```automate_gk_setinputs.m```. Change line 21 to reflect your input filename. This should read something like:
 
-```
+```MATLAB
 inputfilename = 'example_atm_s2.csv';
 ```
 
 Change line 26 to reflect what you would like the output filename to be. This should read something like:
 
-```
+```MATLAB
 outputfilename = 'example_atm_s2_output.txt';
 ```
 
 Change lines 30 and 31 to reflect the two reference materials you will use to calibrate scrambling. This should read something like:
 
-```
+```MATLAB
 ref1 = 'ATM';
 ref2 = 'S2';
 ```
@@ -75,19 +75,19 @@ Size-correct your data (including all samples and standards), as above. Copy and
 
 Open ```N2OSPcalcs.m``` in Matlab. Enter your input file name on line 21. It should read something like: 
 
-```
+```MATLAB
 inputfilename = 'example_input.csv';
 ```
 
 Enter your desired output file name on line 27. This will overwrite any existing file with the same name, so be sure to change the output file name each time. It should read something like:
 
-```
+```MATLAB
 outputfilename = 'example_output.txt';
 ```
 
 Finally, modify line 33 to reflect the most appropriate scrambling coefficients for this set of samples (see below). It should read something like:
 
-```
+```MATLAB
 gamma_kappa = [0.171 0.079];
 ```
 
