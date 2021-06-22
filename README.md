@@ -48,7 +48,7 @@ Open ```constants.m```. Note that we specify a dictionary of reference materials
 
 Open ```automate_gk_setinputs.m```. Change line 21 to reflect your input filename. This should read something like:
 
-```Matlab
+```MATLAB
 inputfilename = 'example_atm_s2.csv';
 ```
 
