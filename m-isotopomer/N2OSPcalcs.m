@@ -30,7 +30,7 @@ outputfilename = 'example_output.txt';
 % These are calculated with the package of scrambling scripts:
 % automate_gk_setinputs.m, automate_gk_solver.m, automate_gk_eqns.m, and
 % constants.m
-gamma_kappa = [0.171 0.079];
+gamma_kappa = [0.1712 0.0787];
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % RUN SOLVER - NO NEED TO MODIFY BELOW THIS LINE %
