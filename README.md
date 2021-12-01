@@ -107,7 +107,7 @@ The scrambling coefficients should not be those calculated alongside one run of 
 
 ### __
 
-Run [N2OSPcalcs.m](https://github.com/ckelly314/m-isotopomer/blob/master/m-isotopomer/N2OSPcalcs.m) .
+Run [N2OSPcalcs.m](https://github.com/ckelly314/m-isotopomer/blob/master/m-isotopomer/N2OSPcalcs.m).
 
 Open your output file (example_output.txt in this example). Output data contains columns in the following order: d15Nalpha, d15Nbeta, 15N site pref, d15Nbulk, d17O, d18O. Copy and paste output data back into the size_correction tab in the working spreadsheet, in olive-highlighted cells (columns AM-AR).
 
